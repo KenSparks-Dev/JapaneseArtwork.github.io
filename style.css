@@ -2,7 +2,7 @@ body{
     padding:0;
     margin:0;
     background-color:#F7F6F7;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Mitr', sans-serif;
 }
 .header{
     padding:20px;
@@ -20,44 +20,218 @@ body{
     width:100%;
     padding:50px 0px 0px 40px;
 }
+.menu{
+    display:none;
+}
 
 .red-sun{
     background: #F84B4D;
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    margin:30px 0px 0px 120px;
+    margin:72px 0px 0px 180px;
     position: absolute;
     z-index: -1;
 }
 .japanese{
-    font-size:1.7em;
+    font-size:1.0em;
     font-weight:900;
     width:100px;
 
 }
 .artwork-class{
-    font-size:4em;
+    font-size:2.4em;
     font-weight:900;
-    line-height: 55px;
+    line-height: 30px;
     margin-top:-20px;
     width:200px;
+    letter-spacing:2px;
 
 }
 .description{
     line-height:20px;
-    font-size:.65em;
-    margin-top:-30px;
-    width:195px;
+    font-size:.2em;
+    margin-top:-5px;
+    width:150px;
     font-weight:900;
     line-height:12px;   
 }
 .icon{
-    padding:20px;
+    padding:0px 0px 0px 50px;
     font-size:1.0em;
     font-weight:600;
 }
 .icon p{  
-    width:150px;
-    line-height: 20px
+    line-height: 10px;
+    font-weight:bold;
+
 }
+
+@media screen and ( min-width: 768px ) {
+    .col-12{
+        padding:80px 0px 0px 80px;
+    }
+    .burger{
+        padding-right:70px;
+        }
+
+    .bar{
+        width: 45px;
+        height: 8px;
+        background-color: black;
+        margin: 8px 0;
+    }
+    
+    .red-sun{
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        margin:100px 0px 0px 400px;
+        
+    }
+    .japanese{
+        font-size:2.2em;
+        padding-left:15px;
+        line-height: 10px;
+    }
+    .artwork-class{
+        font-size:5.2em;
+        font-weight:900;
+        line-height: 72px;
+        letter-spacing:4px;
+
+    }
+    .description {
+        font-size:.8em;
+        margin-top:-30px;
+        width:340px;
+        font-weight:900;
+        line-height:22px;   
+    }
+    .icon{
+        padding:0px 0px 0px 80px;
+        font-size:1.5em;
+    }
+    .icon p{  
+        line-height: 10px;    
+    }
+
+} 
+
+@media screen and ( min-width: 950px ) {
+    .col-12{
+        padding:140px 0px 0px 140px;
+        line-height: 10px
+    }
+    .burger{
+        padding-right:70px;
+        }
+
+    .bar{
+        width: 65px;
+        height: 12px;
+        background-color: black;
+        margin: 11px 0;
+    }
+    
+    .red-sun{
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        margin:150px 0px 0px 535px;  
+    }
+    .japanese{
+        font-size:2.2em;
+        padding-left:25px;
+    
+    }
+    .artwork-class{
+        font-size:7em;
+        font-weight:900;
+        line-height: 102px;
+    
+    }
+    .description {
+        font-size:1.2em;
+        margin-top:-30px;
+        width:455px;
+        font-weight:900;
+        line-height:22px;   
+    }
+    .icon{
+        padding:0px 0px 0px 140px;
+        font-size:1.9em;
+    }
+    .icon p{  
+        line-height: 10px;    
+    }
+
+}
+@media screen and ( min-width: 1250px ) {
+    .col-12{
+        padding:120px 0px 0px 240px;
+        line-height: 10px
+    }
+    .burger{
+        display:none;
+        padding-right:70px;
+        }
+    
+    .bar{
+        width: 65px;
+        height: 12px;
+        background-color: black;
+        margin: 11px 0;
+    }
+    .menu{
+        padding:0px 60px 0px 0px;
+    }
+    .menu ul{
+        float:right;
+    }
+    .menu ul li{
+        list-style:none;
+        display:inline-block;
+        margin:0px 20px;
+        padding:10px 10px 10px 10px;
+        border-radius:10%;
+    }
+    .menu ul li:hover{
+        background-color:#F84B4D;
+        color:white;
+    }
+    .red-sun{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin:130px 0px 0px 540px;
+        
+    }
+    .japanese{
+        font-size:1.8em;
+        padding-left:25px;
+    
+    }
+    .artwork-class{
+        font-size:5.0em;
+        font-weight:800;
+        line-height: 70px;
+    
+    }
+    .description {
+        font-size:.8em;
+        margin-top:-30px;
+        width:295px;
+        font-weight:500;
+        line-height:22px;   
+    }
+    .icon{
+        padding:0px 0px 0px 140px;
+        font-size:1.9em;
+    }
+    .icon p{  
+        line-height: 10px;    
+    }
+
+}
+
